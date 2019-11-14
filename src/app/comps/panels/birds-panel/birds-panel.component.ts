@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BirdsService } from '../../../services/birds.service';
+import { BirdService } from '../../../services/birds.service';
 
 @Component({
   selector: 'app-birds-panel',
@@ -8,7 +8,7 @@ import { BirdsService } from '../../../services/birds.service';
 })
 export class BirdsPanelComponent implements OnInit {
 
-  constructor(public birdsSvc:BirdsService) {
+  constructor(public birdsSvc:BirdService) {
     console.log("in the birdspanelcomponent constructor ");
     
    }

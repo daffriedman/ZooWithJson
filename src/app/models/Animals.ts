@@ -1,6 +1,6 @@
 export class Animals {
     name:string
-    lifespan:string
+    lifeSpan:string
     size:string
     habitat:string
     img:string

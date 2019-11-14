@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { PagingService } from './services/paging.service';
-import { BirdsService } from './services/birds.service';
+import { BirdService } from './services/birds.service';
 import { BeastsService } from './services/beasts.service';
 import { WildsService } from './services/wilds.service';
 // import { getUnpackedSettings } from 'http2';
@@ -15,7 +15,7 @@ export class AppComponent {
 
 
 
-  constructor(public paging:PagingService, public birds: BirdsService, public beasts:BeastsService,public wilds:WildsService){}
+  constructor(public paging:PagingService, public birds: BirdService, public beasts:BeastsService,public wilds:WildsService){}
 
 
 getUp(ev){
@@ -36,8 +36,8 @@ getUp(ev){
       break;
     case 'wilds':
     let newWildIndex = this.getNewCurrentIndex(
-      this.wilds.currentWildIndex, ev, this.wilds.wilds)
-      this.wilds.currentWildIndex = newWildIndex
+      this.wilds.currentWildsIndex, ev, this.wilds.wilds)
+      this.wilds.currentWildsIndex = newWildIndex
       this.wilds.currentWild = this.wilds.wilds[newWildIndex]
     
       break;
