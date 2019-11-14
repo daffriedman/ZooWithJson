@@ -9,7 +9,7 @@ export class WildsService {
 
   constructor(private http:HttpClient) { 
     console.log('ctor WildsService');
-    let u = 'https://raw.githubusercontent.com/bresleveloper/breslev-zoo/master/src/assets/beasts.json';
+    let u = 'https://raw.githubusercontent.com/daffriedman/ZooWithJson/master/src/assets/wilds.json';
     http.get(u)
       .subscribe(data => {
         console.log('ctgetor Wilds inside subscribe');

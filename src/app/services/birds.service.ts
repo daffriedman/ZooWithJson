@@ -9,7 +9,7 @@ export class BirdService {
 
   constructor(private http:HttpClient) { 
     console.log('ctor BirdsService');
-    let u = 'https://raw.githubusercontent.com/bresleveloper/breslev-zoo/master/src/assets/beasts.json';
+    let u = 'https://raw.githubusercontent.com/daffriedman/ZooWithJson/master/src/assets/birds.json';
     http.get(u)
       .subscribe(data => {
         console.log('ctgetor Birds inside subscribe');
