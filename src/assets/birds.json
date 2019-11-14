@@ -1,0 +1,32 @@
+[
+{"name":"blue-tail",
+     "size": "small", 
+     "lifeSpan":"15y",
+     " habitat":"africa",
+      "img":"https://st2.depositphotos.com/1578496/5184/i/950/depositphotos_51844897-stock-photo-blue-tailed-bee-eater-bird.jpg"
+    },
+    {"name":"Parakeet",
+         "size": "small",
+          "lifeSpan":"2y",
+          " habitat":"Amazon",
+           "img":"https://media.timeout.com/images/105447019/630/472/image.jpg"
+        }, 
+    {"name":"Eagle",
+         "size": "Big",
+          "lifeSpan":"5y",
+          " habitat":"Mountains" , 
+          "img":"https://images.unsplash.com/photo-1504350440606-81847d413a13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+    {"name":"falcon",
+         "size": "large", 
+         "lifeSpan":"115y",
+         " habitat":"africa",
+          "img":"https://images.unsplash.com/photo-1491168023551-478e768c038c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+    {"name":"flamingo",
+         "size": "extra large", 
+         "lifeSpan":"5m",
+         " habitat":"africa" ,
+          "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzuiUGDRhXgJiQJuV-peWGfd5WuItJG4hGqQkuR6_a5ef0e0jSmA&s"
+        }
+    ]

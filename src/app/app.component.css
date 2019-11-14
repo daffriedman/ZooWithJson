@@ -1,0 +1,18 @@
+.beastClass{
+     display: flex;
+    justify-content: space-evenly; 
+    
+    background-color: red;
+}
+.birdClass{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: blue;
+}
+.wildClass{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: brown;
+}
+

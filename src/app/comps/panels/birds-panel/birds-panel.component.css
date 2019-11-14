@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+}
+.birdCard{
+    display: inline-block;
+    width: 50%;
+   
+}
+.birdList{
+    display: inline-block;
+    width: 50%;
+   
+}

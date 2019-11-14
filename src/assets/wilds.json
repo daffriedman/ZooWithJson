@@ -1,0 +1,33 @@
+[
+{"name":"Lion", 
+    "size": "Big", 
+    "lifeSpan":"20y", 
+    "habitat":"africa",
+    "img":"https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {"name":"Tiger", 
+     "size":"Big" ,
+    "lifeSpan":"21y",
+   "habitat":"Sahara",
+ "img":"https://images.unsplash.com/photo-1526034332220-067b0f400e06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    }, 
+    {"name":"Hyena",
+         "size": "Medium", 
+         "lifeSpan":"19y", 
+         "habitat":"Jungle" ,
+          "img":"https://images.unsplash.com/photo-1564099441295-5a6eaab94716?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        },
+    {"name":"Cheetah",
+         "size": "Medium",
+          "lifeSpan":"24y",
+           "habitat":"africa", 
+           "img":"https://images.unsplash.com/photo-1526246708488-d433888791b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        },
+    {"name":"Hippo", 
+        "size": "extra large", 
+        "lifeSpan":"30y", 
+        "habitat":"africa" ,
+         "img":"https://images.unsplash.com/photo-1520862250813-0cdd3841102b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        }
+
+    ]

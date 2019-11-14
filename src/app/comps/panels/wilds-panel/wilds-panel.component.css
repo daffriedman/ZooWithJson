@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+}
+.wildCard{
+    display: inline-block;
+    width: 50%;
+   
+}
+.wildList{
+    display: inline-block;
+    width: 50%;
+   
+}

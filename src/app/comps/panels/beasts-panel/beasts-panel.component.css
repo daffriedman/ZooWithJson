@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+}
+.beastcard{
+    display: inline-block;
+    width: 50%;
+   
+}
+.beastList{
+    display: inline-block;
+    width: 50%;
+   
+}

@@ -1,0 +1,15 @@
+<h1>Welcome to the Beast Corral </h1>
+<div class="flex">
+     <div class="beastList">
+        <h2>List Of beast:</h2> 
+        <ul>
+            <li *ngFor="let b of beastsSvc.beasts"> {{ b.name }} </li>
+        </ul>
+    </div>
+
+
+    <div class="beastcard">
+        <app-beast-card></app-beast-card>
+    </div>
+</div>
+
