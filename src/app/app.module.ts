@@ -12,6 +12,8 @@ import { WildsPanelComponent } from './comps/panels/wilds-panel/wilds-panel.comp
 import { WildCardComponent } from './comps/cards/wild-card/wild-card.component';
 import { PaginatorComponent } from './comps/general/paginator/paginator.component';
 import { FooterComponent } from './comps/general/footer/footer.component';
+import { HttpClientModule } from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { FooterComponent } from './comps/general/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
